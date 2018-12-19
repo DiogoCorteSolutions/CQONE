@@ -1,0 +1,11 @@
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Dommain\bin\Debug\ListaTelefonica.Dommain.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Dommain\bin\Debug\ListaTelefonica.Dommain.pdb
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Dommain\bin\Debug\FluentNHibernate.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Dommain\bin\Debug\Iesi.Collections.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Dommain\bin\Debug\NHibernate.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Dommain\bin\Debug\FluentNHibernate.xml
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Dommain\bin\Debug\Iesi.Collections.xml
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Dommain\bin\Debug\NHibernate.xml
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Dommain\obj\Debug\ListaTelefonica.Dommain.csprojResolveAssemblyReference.cache
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Dommain\obj\Debug\ListaTelefonica.Dommain.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Dommain\obj\Debug\ListaTelefonica.Dommain.pdb

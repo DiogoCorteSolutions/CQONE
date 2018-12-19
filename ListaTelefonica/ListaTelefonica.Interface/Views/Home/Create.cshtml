@@ -1,0 +1,167 @@
+﻿@model ListaTelefonica.Infra.Models.Agenda
+@{
+    ViewBag.Title = "Cadastro de Agenda";
+
+    <style>
+        #example_length {
+            display: none !important;
+        }
+
+        .dataTables_filter {
+            display: none !important;
+        }
+
+        .erro-alert-nome {
+            display: none;
+        }
+
+        .erro-alert {
+            display: block;
+        }
+
+        .dataTables_length {
+            display: none;
+        }
+    </style>
+}
+
+<h2>@ViewBag.Title</h2>
+
+@*<blockquote>
+        <p>@ViewBag.Title</p>
+        <small>Bem <cite title="Source Title">Vindo!!!</cite></small>
+    </blockquote>*@
+<hr />
+@using (Html.BeginForm("create", "home", FormMethod.Post, new { @class = "form-horizontal", id = "formCadastro", name = "formCadastro" }))
+{
+    if (TempData["msgerror"] != null)
+    {
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgerror"]
+        </div>
+    }
+    else if (TempData["msgsucesso"] != null)
+    {
+        <div class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgsucesso"]
+        </div>
+    }
+    else if (TempData["msgalerta"] != null)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgalerta"]
+        </div>
+    }
+    else if (!ViewContext.ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @Html.ValidationSummary()
+        </div>
+    }
+    <div class="row">
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Nome</label>
+                @Html.TextBoxFor(x => x.NomeContato, new { @class = "form-control", placeholder = "", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>E-mail de Contato </label>
+                @Html.TextBoxFor(x => x.EmailContato, new { @class = "form-control", placeholder = "" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>E-mail Residencial</label>
+                @Html.TextBoxFor(x => x.EmailResidencial, new { @class = "form-control", placeholder = "" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>E-mail Comercial</label>
+                @Html.TextBoxFor(x => x.EmailComercial, new { @class = "form-control", placeholder = "" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Outro E-mail</label>
+                @Html.TextBoxFor(x => x.EmailOutro, new { @class = "form-control", placeholder = ""})
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Telefone de Contato</label>
+                @Html.TextBoxFor(x => x.TelefoneContato, new { @class = "form-control", placeholder = "", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Telefone Residencial</label>
+                @Html.TextBoxFor(x => x.TelefoneResidencial, new { @class = "form-control", placeholder = "" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Telefone Comercial</label>
+                @Html.TextBoxFor(x => x.TelefoneComercial, new { @class = "form-control", placeholder = "" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Outro Telefone</label>
+                @Html.TextBoxFor(x => x.TelefoneOutro, new { @class = "form-control", placeholder = "" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Empresa</label>
+                @Html.TextBoxFor(x => x.Empresa, new { @class = "form-control", placeholder = "" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Endereço</label>
+                @Html.TextBoxFor(x => x.Endereco, new { @class = "form-control", placeholder = "" })
+            </div>
+        </div>
+
+        <div id="alerta-div" style="display: none;"></div>
+
+        <hr />
+
+        <div class="col-md-12">
+            <div class="form-group m-t-10">
+                <button id="btn-all-valid" name="btn-all-valid" type="submit" class="btn btn-success btn-custom waves-effect w-md m-b-5"><i class="fa fa-save"></i>&ensp;Salvar</button>
+                <a id="btn-all" name="btn-all" href="@Url.Action("index", "home")" class="btn btn-warning btn-custom waves-effect w-md m-b-5"><i class="fa fa-reply-all"></i>&ensp;Voltar</a>
+
+            </div>
+        </div>
+        @section Scripts{
+            <script src="@Url.Content("~/Scripts/views/commonViews.js")"></script>
+
+        }
+
+
+    </div>
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

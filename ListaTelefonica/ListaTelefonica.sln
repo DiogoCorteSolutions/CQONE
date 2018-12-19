@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{02B51EB7-8C05-43C2-ABD7-054A7F6C74B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaTelefonica.Interface", "ListaTelefonica.Interface\ListaTelefonica.Interface.csproj", "{D07AE154-1389-4006-9FA2-5AFDD6E4F02F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{FE1A2BB4-2793-4252-A61B-2A2DFD6AF32F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaTelefonica.Infra", "ListaTelefonica.Infra\ListaTelefonica.Infra.csproj", "{13E22085-249A-4330-91A8-371F4B0E4773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaTelefonica.InterfaceTests2", "ListaTelefonica.InterfaceTests2\ListaTelefonica.InterfaceTests2.csproj", "{F81020EF-96EB-490B-B428-3988BABE0250}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Script", "3 - Script", "{D554F1A9-BE4B-4A82-B035-23505A7C3DF2}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Diogo\Documents\script.sql = C:\Users\Diogo\Documents\script.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D07AE154-1389-4006-9FA2-5AFDD6E4F02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07AE154-1389-4006-9FA2-5AFDD6E4F02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07AE154-1389-4006-9FA2-5AFDD6E4F02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07AE154-1389-4006-9FA2-5AFDD6E4F02F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E22085-249A-4330-91A8-371F4B0E4773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E22085-249A-4330-91A8-371F4B0E4773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E22085-249A-4330-91A8-371F4B0E4773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E22085-249A-4330-91A8-371F4B0E4773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81020EF-96EB-490B-B428-3988BABE0250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81020EF-96EB-490B-B428-3988BABE0250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81020EF-96EB-490B-B428-3988BABE0250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81020EF-96EB-490B-B428-3988BABE0250}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D07AE154-1389-4006-9FA2-5AFDD6E4F02F} = {02B51EB7-8C05-43C2-ABD7-054A7F6C74B3}
+		{13E22085-249A-4330-91A8-371F4B0E4773} = {FE1A2BB4-2793-4252-A61B-2A2DFD6AF32F}
+	EndGlobalSection
+EndGlobal

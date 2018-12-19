@@ -1,0 +1,117 @@
+﻿@model ListaTelefonica.Infra.Models.Agenda
+@{
+    ViewBag.Title = "Vizulização de Agenda";
+}
+
+@*<blockquote>
+        <p>@ViewBag.Title</p>
+        <small>Bem <cite title="Source Title">Vindo!!!</cite></small>
+    </blockquote>*@
+<hr />
+
+@using (Html.BeginForm("Details", "home", FormMethod.Get, new { @class = "form-horizontal" }))
+{
+    <fieldset>
+        <legend>Visualizar</legend>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Código *</label>
+                @Html.TextBoxFor(x => x.IdAgenda, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Nome *</label>
+                @Html.TextBoxFor(x => x.NomeContato, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>E-mail Comercial *</label>
+                @Html.TextBoxFor(x => x.EmailContato, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>E-mail Residencial *</label>
+                @Html.TextBoxFor(x => x.EmailResidencial, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>E-mail Comercial *</label>
+                @Html.TextBoxFor(x => x.EmailComercial, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Outro E-mail *</label>
+                @Html.TextBoxFor(x => x.EmailOutro, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Telefone Contato *</label>
+                @Html.TextBoxFor(x => x.TelefoneContato, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Telefone Comercial *</label>
+                @Html.TextBoxFor(x => x.TelefoneComercial, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Telefone Residencial *</label>
+                @Html.TextBoxFor(x => x.TelefoneResidencial, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Telefone Comercial *</label>
+                @Html.TextBoxFor(x => x.TelefoneComercial, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Outro Telefone *</label>
+                @Html.TextBoxFor(x => x.TelefoneOutro, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Empresa *</label>
+                @Html.TextBoxFor(x => x.Empresa, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Endereço *</label>
+                @Html.TextBoxFor(x => x.Endereco, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <hr>
+        <div class="col-md-12">
+            <div class="form-group m-t-10">
+                <a id="btn-all" name="btn-all" href="@Url.Action("index", "home")" cl class="btn btn-warning btn-custom waves-effect w-md m-b-5"><i class="fa fa-reply-all"></i>&ensp;Voltar</a>
+
+            </div>
+        </div>
+    </fieldset>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

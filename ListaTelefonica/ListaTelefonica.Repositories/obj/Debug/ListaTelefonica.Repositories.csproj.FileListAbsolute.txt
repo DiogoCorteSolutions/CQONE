@@ -1,0 +1,13 @@
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\bin\Debug\ListaTelefonica.Repositories.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\bin\Debug\ListaTelefonica.Repositories.pdb
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\bin\Debug\FluentNHibernate.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\bin\Debug\Iesi.Collections.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\bin\Debug\NHibernate.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\bin\Debug\FluentNHibernate.xml
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\bin\Debug\Iesi.Collections.xml
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\bin\Debug\NHibernate.xml
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\obj\Debug\ListaTelefonica.Repositories.csprojResolveAssemblyReference.cache
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\obj\Debug\ListaTelefonica.Repositories.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\obj\Debug\ListaTelefonica.Repositories.pdb
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\bin\Debug\ListaTelefonica.Infra.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Repositories\bin\Debug\ListaTelefonica.Infra.pdb

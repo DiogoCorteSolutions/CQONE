@@ -1,0 +1,11 @@
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Infra\bin\Debug\ListaTelefonica.Infra.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Infra\bin\Debug\ListaTelefonica.Infra.pdb
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Infra\bin\Debug\FluentNHibernate.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Infra\bin\Debug\Iesi.Collections.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Infra\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Infra\bin\Debug\NHibernate.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Infra\bin\Debug\FluentNHibernate.xml
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Infra\bin\Debug\Iesi.Collections.xml
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Infra\bin\Debug\NHibernate.xml
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Infra\obj\Debug\ListaTelefonica.Infra.dll
+D:\Projetos\TESTE_CQONE\ListaTelefonica\ListaTelefonica.Infra\obj\Debug\ListaTelefonica.Infra.pdb
